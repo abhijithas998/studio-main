@@ -1,0 +1,82 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "A beautiful Kerala wedding ceremony setup with intricate floral decorations.",
+      "imageUrl": "https://picsum.photos/seed/joyeux-hero/1920/1080",
+      "imageHint": "kerala wedding"
+    },
+    {
+      "id": "about-image",
+      "description": "An elegant dining setup at a wedding reception.",
+      "imageUrl": "https://picsum.photos/seed/joyeux-about/600/800",
+      "imageHint": "wedding decor"
+    },
+    {
+      "id": "service-stage",
+      "description": "An ornate wedding stage with flowers and lighting.",
+      "imageUrl": "https://picsum.photos/seed/joyeux-serv1/400/300",
+      "imageHint": "stage decoration"
+    },
+    {
+      "id": "service-drink",
+      "description": "Colorful welcome drinks being served.",
+      "imageUrl": "https://picsum.photos/seed/joyeux-serv2/400/300",
+      "imageHint": "welcome drink"
+    },
+    {
+      "id": "service-boys",
+      "description": "Professional serving staff at an event.",
+      "imageUrl": "https://picsum.photos/seed/joyeux-serv3/400/300",
+      "imageHint": "serving staff"
+    },
+    {
+      "id": "service-catering",
+      "description": "A grand buffet spread for a wedding.",
+      "imageUrl": "https://picsum.photos/seed/joyeux-serv4/400/300",
+      "imageHint": "catering food"
+    },
+    {
+      "id": "service-media",
+      "description": "A photographer capturing a wedding moment.",
+      "imageUrl": "https://picsum.photos/seed/joyeux-serv5/400/300",
+      "imageHint": "wedding photography"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Elegant stage decor with golden accents.",
+      "imageUrl": "https://picsum.photos/seed/joyeux-gal1/600/400",
+      "imageHint": "elegant decor"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Classic Kerala wedding setup with banana leaves and flowers.",
+      "imageUrl": "https://picsum.photos/seed/joyeux-gal2/600/400",
+      "imageHint": "kerala setup"
+    },
+    {
+      "id": "gallery-3",
+      "description": "A grand wedding reception hall.",
+      "imageUrl": "https://picsum.photos/seed/joyeux-gal3/600/400",
+      "imageHint": "wedding reception"
+    },
+    {
+      "id": "gallery-4",
+      "description": "A beautiful floral archway at a wedding entrance.",
+      "imageUrl": "https://picsum.photos/seed/joyeux-gal4/600/400",
+      "imageHint": "floral arch"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Intricate table setting for wedding guests.",
+      "imageUrl": "https://picsum.photos/seed/joyeux-gal5/600/400",
+      "imageHint": "table setting"
+    },
+    {
+      "id": "gallery-6",
+      "description": "Serving setup for a traditional sadya.",
+      "imageUrl": "https://picsum.photos/seed/joyeux-gal6/600/400",
+      "imageHint": "sadya serving"
+    }
+  ]
+}
