@@ -39,7 +39,7 @@ export function Hero() {
           Wedding Planner & Events
         </p>
         <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90">
-          <Link href="#contact">Book Your Event</Link>
+          <a href="tel:+917902265603">Call Now</a>
         </Button>
       </div>
     </section>

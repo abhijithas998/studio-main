@@ -54,9 +54,7 @@ export function Header() {
               {link.label}
             </Link>
           ))}
-          <Button asChild>
-            <Link href="#contact">Book Your Event</Link>
-          </Button>
+          
         </nav>
 
         {/* Mobile Navigation */}
@@ -96,13 +94,6 @@ export function Header() {
                     </SheetClose>
                   ))}
                 </nav>
-                 <div className="p-4 border-t ">
-                    <SheetClose asChild>
-                      <Button asChild className="w-full" size="lg">
-                        <Link href="#contact">Book Your Event</Link>
-                      </Button>
-                    </SheetClose>
-                 </div>
               </div>
             </SheetContent>
           </Sheet>

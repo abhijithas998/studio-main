@@ -5,7 +5,6 @@ import { Menu } from '@/components/landing/Menu';
 import { Services } from '@/components/landing/Services';
 import { Gallery } from '@/components/landing/Gallery';
 import { Testimonials } from '@/components/landing/Testimonials';
-import { Contact } from '@/components/landing/Contact';
 import { Footer } from '@/components/landing/Footer';
 import { FloatingWhatsApp } from '@/components/landing/FloatingWhatsApp';
 import { IntroGate } from '@/components/landing/IntroPreloader';
@@ -24,8 +23,16 @@ export default function Home() {
           <Services />
           <Gallery />
           <Testimonials />
-          <Contact/>
         </main>
+        <section className="bg-secondary/50">
+          <div className="container py-12 text-center">
+            <h3 className="font-headline text-2xl font-semibold text-primary">Contact</h3>
+            <div className="mt-4 flex flex-col items-center gap-2 text-muted-foreground">
+              <a href="tel:+917902265603" className="hover:text-primary transition-colors">+91 7902265603</a>
+              <a href="tel:+919048115078" className="hover:text-primary transition-colors">+91 9048115078</a>
+            </div>
+          </div>
+        </section>
         <Footer />
         <FloatingWhatsApp />
       </div>

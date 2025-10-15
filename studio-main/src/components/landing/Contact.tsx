@@ -42,30 +42,6 @@ export function Contact() {
           title: 'Success!',
           description: state.message,
         });
-        // celebratory subtle confetti via DOM API (no heavy deps)
-        try {
-          const burst = document.createElement('div');
-          burst.className = 'pointer-events-none fixed inset-0 z-[90]';
-          const fragment = document.createDocumentFragment();
-          for (let i = 0; i < 40; i++) {
-            const dot = document.createElement('span');
-            dot.className = 'absolute block rounded-full bg-[#d4af37]';
-            dot.style.left = Math.random() * 100 + '%';
-            dot.style.top = '50%';
-            dot.style.width = dot.style.height = 4 + Math.random() * 6 + 'px';
-            dot.style.transform = 'translateY(0)';
-            dot.style.opacity = '0.9';
-            dot.style.transition = 'transform 900ms ease-out, opacity 900ms ease-out';
-            fragment.appendChild(dot);
-            requestAnimationFrame(() => {
-              dot.style.transform = `translate(${(Math.random() - 0.5) * 200}px, ${-60 - Math.random() * 120}px)`;
-              dot.style.opacity = '0';
-            });
-          }
-          burst.appendChild(fragment);
-          document.body.appendChild(burst);
-          setTimeout(() => burst.remove(), 1100);
-        } catch {}
         // Reset form fields on success
         const form = document.getElementById('contact-form') as HTMLFormElement;
         form?.reset();
